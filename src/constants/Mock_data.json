@@ -1,0 +1,26 @@
+[{
+    "id": 1,
+    "first_name": "Consalve",
+    "last_name": "Nuttey",
+    "email": "cnuttey0@skyrock.com",
+    "date_of_birth": "8/27/2021"
+  }, {
+    "id": 2,
+    "first_name": "Domingo",
+    "last_name": "Ormistone",
+    "email": "dormistone1@gravatar.com",
+    "date_of_birth": "3/18/2021"
+  }, {
+    "id": 3,
+    "first_name": "Mel",
+    "last_name": "Mattussevich",
+    "email": "mmattussevich2@gizmodo.com",
+    "date_of_birth": "8/12/2021"
+  }, {
+    "id": 4,
+    "first_name": "Nollie",
+    "last_name": "Liccardi",
+    "email": "nliccardi3@virginia.edu",
+    "date_of_birth": "5/14/2021"
+  }
+]

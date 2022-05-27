@@ -1,0 +1,32 @@
+.modal-title {
+    font-weight: 700;
+}
+
+/* Disable modal closed outside click */
+.modal {
+    pointer-events: none;
+}
+
+.modal-dialog {
+    pointer-events: all;
+}
+
+.modal-content {
+    width: 90%;
+}
+
+.modal-body {
+    position: relative;
+    padding: 20px;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.policy {
+    color: #777;
+    font-size: 11px;
+}

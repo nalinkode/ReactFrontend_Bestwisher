@@ -1,0 +1,12 @@
+.dialog .imageView {
+    width: 100%;
+    text-align: end;
+}
+
+.dialog .cancel {
+    color: green;
+}
+
+.dialog .trash {
+    color: red;
+}

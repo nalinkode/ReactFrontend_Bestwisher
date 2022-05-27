@@ -1,0 +1,67 @@
+.profile-upload {
+    width: 50%;
+    position: relative;
+    margin: -79px auto;
+    margin-bottom: auto;
+}
+
+.cover-upload {
+    margin: auto;
+    position: relative;
+}
+
+.profile-form-upload {
+    position: absolute;
+    right: 25%;
+    top: 60%;
+    margin: 10px;
+    overflow: hidden;
+    font-size: 50%;
+    border-radius: 50%;
+    border: 1px solid #f3f3f3;
+    padding: 1.5em;
+    line-height: 0.75em;
+    background: rgb(4 4 4 / 85%);
+    text-align: center;
+    min-width: 2em;
+    font-weight: bold;
+}
+
+.cover-form-upload {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    overflow: hidden;
+    font-size: 40%;
+    border-radius: 50%;
+    border: 1px solid #bfb0b0;
+    padding: 1.5em;
+    line-height: 0.75em;
+    background: rgb(24 24 24 / 85%);
+    text-align: center;
+    min-width: 2em;
+    font-weight: bold;
+}
+
+.cover-form-upload:hover {
+    background: rgb(148 171 255);
+}
+
+.profile-form-upload .image-input,
+.cover-form-upload .image-input {
+    position: absolute;
+    transform: scale(1.2, 1);
+    opacity: 0;
+    width: 25px;
+    height: 29px;
+    overflow: hidden;
+}
+
+.profile-form-upload:hover {
+    background: rgb(148 171 255);
+}
+
+.profile-form-upload .bi,
+.cover-form-upload .bi {
+    color: white;
+}

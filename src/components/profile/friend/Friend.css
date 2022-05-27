@@ -1,0 +1,86 @@
+.m-portlet .m-portlet__body {
+    margin: 0 25px;
+}
+
+.m-widget4 .m-widget4__item {
+    display: table;
+    padding-top: 1.15rem;
+    padding-bottom: 1.25rem
+}
+
+.m-widget4 .m-widget4__item .m-widget4__img {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.m-widget4 .m-widget4__item .m-widget4__img.m-widget4__img--pic img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.m-widget4 .m-widget4__item .m-widget4__info {
+    display: table-cell;
+    width: 100%;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-size: 1rem;
+    vertical-align: middle;
+    width: 50%;
+}
+
+
+.m-widget4 .m-widget4__item .m-widget4__info .m-widget4__title {
+    font-size: 1rem;
+    font-weight: 600
+}
+
+.m-widget4 .m-widget4__item .m-widget4__info .m-widget4__sub {
+    font-size: .85rem
+}
+
+.m-widget4 .m-widget4__item .m-widget4__ext {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.m-portlet .m-portlet__head {
+    display: table;
+    padding: 0;
+    width: 100%;
+    padding: 0 2.2rem;
+    height: 5.1rem
+}
+
+.m-portlet .m-portlet__head .m-portlet__head-caption {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left
+}
+
+.m-portlet .m-portlet__head .m-portlet__head-caption .m-portlet__head-title {
+    display: table;
+    table-layout: fixed;
+    height: 100%
+}
+
+
+.m-portlet .m-portlet__head .m-portlet__head-caption .m-portlet__head-title .m-portlet__head-text {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: Roboto
+}
+
+.m-portlet {
+    height: calc(100% - 2.2rem);
+}
+
+.m-portlet.m-portlet__body {
+    height: calc(100% - 2.2rem - 2.2rem)
+}
+
+.m-portlet .m-portlet__head {
+    border-bottom: 1px solid #ebedf2
+}

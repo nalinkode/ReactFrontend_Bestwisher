@@ -1,0 +1,8 @@
+.work .flex-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0px;
+    border: 1px solid #dbdada;
+    padding: 7px;
+    align-items: center;
+}

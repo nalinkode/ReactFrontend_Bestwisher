@@ -1,0 +1,20 @@
+.borderBox {
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.aboutTitle {
+    padding-left: 2rem;
+}
+
+.aboutUl {
+    list-style: none;
+}
+
+.aboutUl li {
+    margin: 15px;
+}
+
+.aboutUl i {
+    margin-right: 10px;
+    font-size: 20px;
+}

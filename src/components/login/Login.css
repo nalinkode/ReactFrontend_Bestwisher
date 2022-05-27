@@ -1,0 +1,86 @@
+.Body {
+    background: #edf0f5;
+    padding-bottom: 112px;
+    padding-top: 72px;
+    width: auto;
+    height: 610px;
+}
+
+.m-container {
+    margin: 0 auto;
+    padding: 50px 80px;
+}
+
+.best-wisher-discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    color: #4e4ee9;
+    font-weight: 800;
+}
+
+.titleDesciption {
+    font-weight: 350;
+}
+
+.login-container .card {
+    boxShadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+}
+
+.create_account_btn {
+    background-color: #42b72a;
+}
+
+.create_account_btn:hover {
+    background: #36a420;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none;
+}
+
+label {
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+/* .form-control {
+    line-height: 2.5;
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .title {
+        margin: 15px;
+        text-align: center;
+    }
+
+    .titleDesciption {
+        display: none;
+    }
+}
+
+/* Extra small devices (small tablets, 768px and down) */
+@media only screen and (max-width: 810px) {
+    .best-wisher-discription {
+        margin-bottom: 15px;
+    }
+
+    .title {
+        margin: 15px;
+        text-align: center;
+    }
+
+    .titleDesciption {
+        text-align: center;
+    }
+}

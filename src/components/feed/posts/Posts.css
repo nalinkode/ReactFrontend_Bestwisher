@@ -1,0 +1,56 @@
+.post-image {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.post-profile {
+    width: 60px;
+    height: 60px;
+}
+
+.post-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBtnLeft {
+    display: flex;
+    align-items: center;
+}
+
+.hearticon,
+.likeicon {
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.postlikecounter {
+    font-size: 15px;
+}
+
+.postcomments {
+    cursor: pointer;
+    border-bottom: 1px dash gray;
+}
+
+.bubbly-button {
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+}
+
+.bubbly-button:active {
+    transform: scale(0.9);
+}
+
+.time {
+    font-size: 10px !important
+}
+
+/* .feed-image img {
+    width: 100%;
+    height: auto
+} */

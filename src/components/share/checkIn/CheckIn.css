@@ -1,0 +1,8 @@
+.modal-body {
+    min-height: 400px;
+}
+
+.li-places-suggestion {
+    list-style: none;
+    margin: 6px -31px;
+}
